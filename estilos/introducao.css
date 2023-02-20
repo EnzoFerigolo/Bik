@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
+  max-width: 1200px;
 }
 
 .introducao-conteudo {
@@ -15,6 +16,9 @@
   padding-bottom: 200px;
 }
 
+.introducao h1 {
+  margin-bottom: 40px;
+}
 
 .introducao p {
   margin-bottom: 20px;
@@ -39,7 +43,6 @@
 }
 
 @media (max-width: 1200px) {
-
   .introducao p {
     font-size: 1.125rem;
   }

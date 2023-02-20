@@ -22,11 +22,14 @@ a {
 img {
   max-width: 100%;
   display: block;
-
 }
 
-h1 span {
+h1 span, h2 span {
   color: #ffbb00 ;
+}
+
+img[scr$="jpg"] {
+  border-radius: 4px !important;
 }
 
 .container { 
