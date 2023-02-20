@@ -29,6 +29,7 @@
 }
 
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
@@ -56,7 +57,7 @@
     background-color: #111;
   }
   .introducao-conteudo {
-    padding-bottom: 0px;
+    padding-bottom: 32px;
     padding-top: 32px;
   }
   .txt-grande {
