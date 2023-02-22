@@ -4,7 +4,7 @@ body {
   font-family: "Poppins";
 }
 
-ul, h1, p, blockquote {
+ul, h1, h3, p, blockquote {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -50,6 +50,20 @@ img[scr$="jpg"] {
   border-radius: 5px;
   text-transform: uppercase;
   color: #332200;
+  max-width: fit-content;
+}
+
+.btn:hover {
+  background: linear-gradient(#f9ad0a, #e37d0f) ;
+}
+
+.btn.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.btn.secundario:hover {
+  background-color: var(--cor-9);
 }
 
 @media (max-width: 600px) {
