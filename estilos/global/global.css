@@ -40,6 +40,27 @@ img[scr$="jpg"] {
   margin: 0 auto;
 }
 
+.titulo-bg {
+  background: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+  }
+}
+
 .btn {
   display: inline-block;
   padding: 16px 32px;
