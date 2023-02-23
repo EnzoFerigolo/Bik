@@ -4,7 +4,7 @@ body {
   font-family: "Poppins";
 }
 
-ul, h1, h3, p, blockquote {
+ul, h1, h2, h3, p, blockquote, dd {
   margin: 0px;
   padding: 0px;
   list-style: none;

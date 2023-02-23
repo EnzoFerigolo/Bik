@@ -8,6 +8,11 @@
   padding-bottom: 160px;
 }
 
+.tecnologia-conteudo h2 {
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+
 .tecnologia {
   display: grid;
   grid-template-columns: 1fr 1fr;

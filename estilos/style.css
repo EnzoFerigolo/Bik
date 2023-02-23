@@ -13,7 +13,10 @@
 @import url('./tecnologia.css');
 @import url('./parceiros.css');
 @import url('./depoimento.css');
+
+/* Página de seguros */
 @import url('./seguros.css');
+@import url('./perguntas-freq.css');
 
 /* Página de termos e condições */
 @import url("./termos.css");
