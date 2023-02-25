@@ -23,3 +23,14 @@
 
 /* Página de bicicletas */
 @import url("./bicicletas.css");
+
+/* Página da Nimbus Stark */
+@import url("./bicicletas/nimbus.css");
+@import url("./bicicletas/bicicletas-seguro.css");
+
+/* Página de contato */
+@import url("./contato.css");
+@import url("./lojas.css");
+
+/* Estilos para o formulário */
+@import url("./global/formulario.css");

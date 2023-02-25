@@ -1,0 +1,43 @@
+.seguro-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0px 120px var(--cor-0), inset 0px -120px var(--cor-12);
+}
+
+.seguro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.seguro h2, p {
+  margin-bottom: 32px;
+}
+
+.seguro-conteudo { 
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.seguro-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+  .seguro {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .seguro-img img {
+    height: 280px;
+  }
+  .seguro-bg {
+    box-shadow: inset 0px 120px var(--cor-0);
+  }
+  .seguro-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
