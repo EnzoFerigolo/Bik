@@ -1,5 +1,5 @@
 .depoimento {
-  background-color: var(--cor-principal);
+  background: var(--cor-principal) url("/img/dec/top-right.svg") no-repeat top 40px right 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
@@ -14,6 +14,7 @@
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  
 }
 
 .depoimento-conteudo p {
@@ -40,6 +41,12 @@
   color: var(--cor-p2);
   position: absolute;
   bottom: -64px;
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {

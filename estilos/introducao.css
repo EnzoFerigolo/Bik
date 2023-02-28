@@ -1,7 +1,7 @@
 .introducao-bg {
-  background-color: #000;
-  color: white;
-  box-shadow: inset 0 -120px #fff;
+  background: var(--cor-12) url("/img/dec/bottom-left.svg") no-repeat bottom 160px left 40px;
+  color: var(--cor-0);
+  box-shadow: inset 0 -120px var(--cor-0);
 }
 
 .introducao {
