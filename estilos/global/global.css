@@ -65,8 +65,7 @@ img[scr$="jpg"] {
 .btn {
   display: inline-block;
   padding: 16px 32px;
-  font-size: 1.125rem;
-  font-weight: 600;
+  font: 600 1.125rem/1 "Poppins", sans serif;
   background: linear-gradient(#FFBF00, #e59317);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;

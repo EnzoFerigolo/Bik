@@ -34,3 +34,6 @@
 
 /* Estilos para o formulário */
 @import url("./global/formulario.css");
+
+/* Página de orçamentos */
+@import url("./orcamento.css");
