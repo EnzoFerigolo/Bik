@@ -1,0 +1,41 @@
+.footer-bg {
+  background: var(--cor-12);
+  padding: 64px 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 40px;
+  padding-bottom: 64px;
+}
+
+.footer ul {
+  margin-top: 32px;
+}
+
+.footer li {
+  padding-bottom: 12px;
+}
+
+.footer-contato li:nth-child(2) {
+  margin-bottom: 24px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 32px;
+}
+
+.footer a:hover {
+  color: var(--cor-0);
+}
+
+@media (max-width: 550px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer-info {
+    margin-top: 0;
+  }
+}

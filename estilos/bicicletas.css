@@ -1,0 +1,121 @@
+.bicicletas-img {
+  position: relative;
+}
+
+.bicicletas img {
+  border-radius: 4px;
+}
+
+.bicicletas p {
+  margin-bottom: 24px;
+}
+
+.bicicletas span {
+  background-color: var(--cor-12);
+  padding: 8px 12px;
+  border-radius: 4px 0px 0px 4px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-size: 0.8rem;
+}
+
+.bicicletas h2::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  display: block;
+  background-color: var(--cor-principal);
+  margin-bottom: 8px;
+}
+
+.bicicletas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+}
+
+.bicicletas-conteudo img {
+  width: 24px;
+}
+
+.bicicletas h2,
+.bicicletas p {
+  grid-column: 1/-1;
+  margin-top: 0;
+}
+
+.bicicletas-conteudo .btn {
+  place-self: end;
+}
+
+.btn.seta {
+  display: flex;
+  align-items: center;
+}
+
+.btn.seta::after {
+  content: "";
+  display: inline-block;
+  margin-left: 10px;
+  width: 18px;
+  height: 10px;
+  background-image: url("/img/icones/seta.svg");
+  transition: 0.3s;
+}
+
+.btn.seta:hover::after {
+  transform: translateX(4px);
+}
+
+.bicicletas-bg {
+  background: linear-gradient(to right, var(--cor-0) 20%, var(--cor-11) 20%);
+}
+
+.bicicletas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: center;
+  background: url("/img/dec/top-right.svg") no-repeat top 64px right 40px;
+}
+
+.bicicletas li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.bicicletas li + li {
+  margin-top: 8px;
+}
+
+@media (max-width: 800px) {
+  .bicicletas {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .bicicletas-bg {
+    background: var(--cor-11);
+  }
+  .bicicletas .btn {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .bicicletas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .bicicletas ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+  .bicicletas .btn {
+    place-self: start;
+  }
+}

@@ -1,0 +1,40 @@
+/* Estilos aplicados a todos */
+@import url('./global/global.css');
+@import url('./global/tipografia.css');
+@import url('./global/cores.css');
+@import url('./global/animacao.css');
+
+/* Comum entre as páginas */
+@import url('./header.css');
+@import url('./footer.css');
+
+/* Página inicial */
+@import url('./introducao.css');
+@import url('./bicicletas-lista.css');
+@import url('./tecnologia.css');
+@import url('./parceiros.css');
+@import url('./depoimento.css');
+
+/* Página de seguros */
+@import url('./seguros.css');
+@import url('./perguntas-freq.css');
+
+/* Página de termos e condições */
+@import url("./termos.css");
+
+/* Página de bicicletas */
+@import url("./bicicletas.css");
+
+/* Página da Nimbus Stark */
+@import url("./bicicletas/nimbus.css");
+@import url("./bicicletas/bicicletas-seguro.css");
+
+/* Página de contato */
+@import url("./contato.css");
+@import url("./lojas.css");
+
+/* Estilos para o formulário */
+@import url("./global/formulario.css");
+
+/* Página de orçamentos */
+@import url("./orcamento.css");
